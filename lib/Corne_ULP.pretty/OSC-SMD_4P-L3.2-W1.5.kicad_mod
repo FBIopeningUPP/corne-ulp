@@ -23,4 +23,9 @@
 	(fp_line (start -1.60 -0.75) (end 1.60 -0.75) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.60 -0.75) (end 1.60 0.75) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 1.60 0.75) (end -1.60 0.75) (layer F.CrtYd) (width 0.05))
+	(model "${KIPRJMOD}/../../lib/Corne_ULP.3dshapes/OSC-SMD_4P-L3.2-W1.5.wrl"
+		(offset (xyz 0.000 0.000 0.000))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

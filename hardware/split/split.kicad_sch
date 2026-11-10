@@ -5,9 +5,101 @@
 	(uuid "1ffe6b43-8b99-4c72-b4fb-1d817cc6b3a9")
 	(paper "A4")
 	(lib_symbols)
+	(text "Controller, USB-C, power and LCD"
+		(exclude_from_sim no)
+		(at 24.13 85.09 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "11f9e80f-3b35-4c9b-8571-1769fc742c48")
+	)
+	(text "CORNE ULP"
+		(exclude_from_sim no)
+		(at 20.32 29.21 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "244f8740-2965-4775-8f9b-bfb3d9c52502")
+	)
+	(text "42 Cherry MX ULP switches"
+		(exclude_from_sim no)
+		(at 199.39 85.09 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "3caf1224-966a-458e-9063-b5e120ac1fb8")
+	)
+	(text "Wireless split keyboard  /  schematic overview"
+		(exclude_from_sim no)
+		(at 20.32 40.64 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "923f98cb-2345-4d48-a18c-d74d3d67bfcd")
+	)
+	(text "RIGHT ELECTRONICS"
+		(exclude_from_sim no)
+		(at 111.76 76.2 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b0f3844e-221f-44be-a525-3b897cd54106")
+	)
+	(text "Controller, USB-C, power and LCD"
+		(exclude_from_sim no)
+		(at 111.76 85.09 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "c0901e04-0011-4c10-92d7-7dbde1071f84")
+	)
+	(text "LEFT ELECTRONICS"
+		(exclude_from_sim no)
+		(at 24.13 76.2 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "dfce5ec6-3167-4c1d-a2f7-a44e6f193433")
+	)
+	(text "KEY MATRIX"
+		(exclude_from_sim no)
+		(at 199.39 76.2 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e893e884-e81a-43ad-aaaa-6954ea98530e")
+	)
 	(sheet
-		(at 228.6 62.23)
-		(size 29.21 29.845)
+		(at 195.58 66.04)
+		(size 81.28 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +114,7 @@
 		)
 		(uuid "31072270-9bf6-4ecc-9407-5c13e37ce870")
 		(property "Sheetname" "switch"
-			(at 228.6 61.5184 0)
+			(at 195.58 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "switch.kicad_sch"
-			(at 228.6 92.6596 0)
+			(at 195.58 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,8 +144,8 @@
 		)
 	)
 	(sheet
-		(at 140.97 62.23)
-		(size 57.15 31.75)
+		(at 107.95 66.04)
+		(size 81.28 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +160,7 @@
 		)
 		(uuid "bbd8597e-fc44-4584-8e9b-ab0d477831ed")
 		(property "Sheetname" "right"
-			(at 140.97 61.5184 0)
+			(at 107.95 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "right.kicad_sch"
-			(at 140.97 94.5646 0)
+			(at 107.95 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,8 +190,8 @@
 		)
 	)
 	(sheet
-		(at 62.865 63.5)
-		(size 50.165 32.385)
+		(at 20.32 66.04)
+		(size 81.28 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +206,7 @@
 		)
 		(uuid "c561d814-79f5-4335-b8a1-81a410e11168")
 		(property "Sheetname" "left"
-			(at 62.865 62.7884 0)
+			(at 20.32 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "left.kicad_sch"
-			(at 62.865 96.4696 0)
+			(at 20.32 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

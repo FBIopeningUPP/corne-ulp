@@ -1,0 +1,7 @@
+(version 1)
+
+# C2906290 mid-mount connector lands follow the vendor cutout.
+# 0.20 mm is the minimum copper clearance for a routed FR4 edge.
+(rule "C2906290 USB-C pad clearance at routed recess"
+    (constraint edge_clearance (min 0.20mm))
+    (condition "A.Type == 'Pad' && (A.memberOfFootprint('USB1') || A.memberOfFootprint('USB101')) && B.Layer == 'Edge.Cuts'"))
