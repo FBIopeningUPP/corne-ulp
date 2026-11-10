@@ -1,0 +1,22 @@
+# KiCad backups and autosaves
+*-backups/
+_autosave-*
+*-save.kicad_sch
+*-save.kicad_pcb
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.bak
+fp-info-cache
+
+# KiCad local preferences and lock files
+*.kicad_prl
+~*.lck
+
+# Local importer cache
+.easyeda_cache/
+
+# Desktop files
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,4 @@
+(design_block_lib_table
+	(version 7)
+	(lib (name "Corne_ULP.3dshapes") (type "KiCad") (uri "G:/MorePcb/forge/corne-ulp/lib/Corne_ULP.3dshapes") (options "") (descr ""))
+)

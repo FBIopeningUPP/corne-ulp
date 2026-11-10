@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Corne_ULP") (type "KiCad") (uri "G:/MorePcb/forge/corne-ulp/lib/Corne_ULP.kicad_sym") (options "") (descr "Corne ULP project parts"))
+)
