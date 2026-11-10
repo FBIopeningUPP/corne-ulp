@@ -1,6 +1,6 @@
-# Corne ULP
+# AERIX-ULP
 
-Corne ULP is a low-profile split mechanical keyboard based on the Corne layout.
+AERIX-ULP is a low-profile split mechanical keyboard with a custom layout.
 It is designed around Cherry MX Ultra Low Profile switches and uses a separate
 wireless controller and battery-powered electronics on each half.
 
@@ -14,17 +14,19 @@ The board includes:
 - LCD connectors
 - SWD programming and test points
 
-![Corne ULP](images/image.png)
-![alt text](images/image2.png)
+![AERIX-ULP](images/image.png)
 
-## How to Use It
+AERIX-ULP is a custom keyboard design rather than a Corne-layout derivative.
+This repository records the hardware development work, including the evolving
+schematics, PCB layout, component library, and production files.
+
+## Hardware Development
 
 1. Open the KiCad project in `hardware/split/`.
-2. Review the schematics and PCB layout.
-3. Finish or update the PCB routing as needed.
-4. Generate fabrication files from KiCad when the design is ready.
-5. Assemble the two keyboard halves and connect them according to the final
-   firmware and hardware configuration.
+2. Review the custom-layout schematics and PCB layout.
+3. Continue placement, routing, and electrical validation in KiCad.
+4. Generate fabrication files when the hardware design is ready.
+5. Use the production BOM and placement files for assembly.
 
 This repository currently contains the hardware design. Firmware and assembly
 instructions will be added separately.
