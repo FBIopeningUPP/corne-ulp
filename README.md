@@ -13,6 +13,7 @@ The board includes:
 - 3.0 V regulation
 - LCD connectors
 - SWD programming and test points
+- No 3D-printed case; the underside uses rubber grip dots
 
 ![AERIX-ULP](images/image.png)
 
