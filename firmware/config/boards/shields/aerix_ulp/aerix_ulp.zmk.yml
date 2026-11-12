@@ -1,0 +1,7 @@
+file_format: "1"
+id: aerix_ulp
+name: AERIX-ULP
+type: shield
+url: https://github.com/FBIopeningUPP/corne-ulp
+features:
+  - keys

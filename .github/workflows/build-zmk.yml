@@ -1,0 +1,20 @@
+name: Build ZMK firmware
+
+on:
+  push:
+    paths:
+      - "firmware/**"
+      - ".github/workflows/build-zmk.yml"
+  pull_request:
+    paths:
+      - "firmware/**"
+      - ".github/workflows/build-zmk.yml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      archive_name: aerix-ulp
+      build_matrix_path: firmware/build.yaml
+      config_path: firmware/config

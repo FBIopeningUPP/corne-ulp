@@ -1,0 +1,7 @@
+if SHIELD_AERIX_ULP
+
+config ZMK_KEYBOARD_NAME
+    default "AERIX-ULP"
+
+endif
+
